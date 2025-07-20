@@ -1,3 +1,4 @@
+# sefsfsdff
 def make_rounded_avatar(pil_img, size=(40, 40)):
     pil_img = pil_img.convert("RGBA").resize(size, Image.LANCZOS)
     mask = Image.new('L', size, 0)
